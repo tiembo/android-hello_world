@@ -21,7 +21,7 @@ public class MyActivity extends Activity
 
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
-                Toast.makeText(MyActivity.this, "" + position, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MyActivity.this, "Position " + position, Toast.LENGTH_SHORT).show();
             }
         });
     }

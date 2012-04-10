@@ -6,7 +6,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
-import com.example.R;
 
 public class ImageAdapter extends BaseAdapter {
     private Context mContext;
